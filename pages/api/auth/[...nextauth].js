@@ -21,6 +21,7 @@ export default NextAuth({
       },
       from: process.env.EMAIL_FROM,
     }),
+    /*
     Providers.Apple({
       clientId: process.env.APPLE_ID,
       clientSecret: {
@@ -51,6 +52,7 @@ export default NextAuth({
       clientId: process.env.TWITTER_ID,
       clientSecret: process.env.TWITTER_SECRET,
     }),
+    */
   ],
   // Database optional. MySQL, Maria DB, Postgres and MongoDB are supported.
   // https://next-auth.js.org/configuration/databases
