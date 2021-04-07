@@ -4,6 +4,7 @@ See it live here: [https://first-next-auth.vercel.app/](https://first-next-auth.
 - Removed default providers
 - Added email provider: [https://next-auth.js.org/providers/email](https://next-auth.js.org/providers/email)
 - Added default test credentials provider: [https://next-auth.js.org/providers/credentials](https://next-auth.js.org/providers/credentials)
+- Set environment variables (see the file: .env.local.first_example)
 - Deployed to Vercel through UI and steps outlined here: [https://nextjs.org/learn/basics/deploying-nextjs-app](https://nextjs.org/learn/basics/deploying-nextjs-app)
 
 ## Writing from Scratch
