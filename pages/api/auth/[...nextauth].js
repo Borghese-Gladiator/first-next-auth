@@ -6,7 +6,6 @@ import Providers from "next-auth/providers"
 export default NextAuth({
   // https://next-auth.js.org/configuration/providers
   providers: [
-    
     Providers.Credentials({
       name: "Test Credentials",
       async authorize(credentials) {
@@ -17,18 +16,7 @@ export default NextAuth({
         username: { label: "Username", type: "text ", placeholder: "jsmith@example.com" },
         password: {  label: "Password", type: "password", placeholder: "No Password" }
      }
-    }),
-    Providers.Email({
-      server: {
-        host: process.env.EMAIL_SERVER_HOST,
-        port: process.env.EMAIL_SERVER_PORT,
-        auth: {
-          user: process.env.EMAIL_SERVER_USER,
-          pass: process.env.EMAIL_SERVER_PASSWORD
-        }
-      },
-      from: process.env.EMAIL_FROM
-    }),
+    })
     /*
     Providers.Apple({
       clientId: process.env.APPLE_ID,
