@@ -85,7 +85,7 @@ export default NextAuth({
     // A secret to use for key generation (you should set this explicitly)
     secret: 'random_super_secret_key',
     // Set to true to use encryption (default: false)
-    encryption: true,
+    // encryption: true,
     // You can define your own encode/decode functions for signing and encryption
     // if you want to override the default behaviour.
     // encode: async ({ secret, token, maxAge }) => {},
