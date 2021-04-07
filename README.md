@@ -1,3 +1,15 @@
+# First Next.js Auth
+See it live here: [https://first-next-auth.vercel.app/](https://first-next-auth.vercel.app/)
+- Cloned Next Auth Example from website.
+- Removed default providers
+- Added email provider: [https://next-auth.js.org/providers/email](https://next-auth.js.org/providers/email)
+- Added default test credentials provider: [https://next-auth.js.org/providers/credentials](https://next-auth.js.org/providers/credentials)
+- Deployed to Vercel through UI and steps outlined here: [https://nextjs.org/learn/basics/deploying-nextjs-app](https://nextjs.org/learn/basics/deploying-nextjs-app)
+
+## Writing from Scratch
+- Followed Steps on LogRocket tutorial to get started: [https://blog.logrocket.com/using-authentication-in-next-js/](https://blog.logrocket.com/using-authentication-in-next-js/)
+- Cloned repo instead
+
 # NextAuth.js Example
 
 [next-auth-example.now.sh](https://next-auth-example.now.sh)
